@@ -13,10 +13,7 @@
   <a href="#06-data-science-projects">Data Science</a> •
   <a href="#07-sih-projects-smart-india-hackathon">SIH Projects</a> •
   <a href="#08-certification-programs">Certifications</a> •
-  <a href="#09-arogyaai">ArogyaAI</a> •
-  <a href="#10-nexterm">Nexterm</a> •
-  <a href="#11-repo_clone_system">Repo_Clone_System</a> •
-  <a href="#12-simple-weather">Simple Weather</a>
+  <a href="#0912-standalone--specialty-projects">Standalone Projects</a>
 </p>
 
 ---
@@ -33,10 +30,7 @@
 | **06** | [Data Science Projects](#06-data-science-projects) | Pandas, scikit-learn, Time Series Forecasting, Clustering, XGBoost | Planned Lineup |
 | **07** | [SIH Projects (Smart India Hackathon)](#07-sih-projects-smart-india-hackathon) | Healthcare Data Management, FHIR R4 Terminology, Healthcare AI | 2 Projects |
 | **08** | [Certification Programs](#08-certification-programs) | IBM MERN Stack Developer, GeeksforGeeks DSA, Professional Certifications | Verified Courses |
-| **09** | [ArogyaAI](#09-arogyaai) | Predictive Health Intelligence, React 19, FastAPI, TimescaleDB, Qdrant | 1 Project |
-| **10** | [Nexterm](#10-nexterm) | Local Developer OS CLI, Tab Completion, pre-push guardian | 1 Project |
-| **11** | [Repo_Clone_System](#11-repo_clone_system) | Workspace memory clone system, CLI workspace & profile management | 1 Project |
-| **12** | [Simple Weather](#12-simple-weather) | Modern weather application, TanStack Start, Geolocation, Open-Meteo | 1 Project |
+| **09–12** | [Standalone & Specialty Projects](#0912-standalone--specialty-projects) | ArogyaAI, Nexterm, Repo Clone System, Simple Weather | 4 Projects |
 
 ---
 
@@ -193,8 +187,8 @@
 
 | Project | Description | Repo |
 | :--- | :--- | :--- |
-| **Fhir-Tech** | A healthcare data management system (FHIR R4 Terminology Service + AI integration) | [Fhir-Tech](https://github.com/Mr-Anonymous-Guy/Fhir-Tech) |
-| **Healthcare AI Prototype** | Comprehensive, privacy-first healthcare AI platform for clinical diagnostics and patients | [Healthcare_AI_Prototype](https://github.com/Mr-Anonymous-Guy/Healthcare_AI_Prototype) |
+| Fhir-Tech | A healthcare data management system (FHIR R4 Terminology Service + AI integration) | [Fhir-Tech](https://github.com/Mr-Anonymous-Guy/Fhir-Tech) |
+| Healthcare AI Prototype | Comprehensive, privacy-first healthcare AI platform for clinical diagnostics and patients | [Healthcare_AI_Prototype](https://github.com/Mr-Anonymous-Guy/Healthcare_AI_Prototype) |
 
 ---
 
@@ -212,21 +206,21 @@
 
 | Project | Description | Repo |
 | :--- | :--- | :--- |
-| **MERN Stack Developer (IBM)** | Full-stack web architecture, React, Node.js, Express, MongoDB REST APIs | [Mern_Stack-IBM](https://github.com/Mr-Anonymous-Guy/Mern_Stack-IBM) |
-| **Data Structures & Algorithms (GeeksforGeeks)** | Core algorithmic problem solving, trees, graphs, dynamic programming | [DSA-GFG](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
-| **Cloud & Backend Engineering** | Microservices, database optimization, cloud deployments | [Cloud-Track](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
-| **AI & Machine Learning Foundations** | Data science pipelines, neural networks, predictive models | [AI-Foundations](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
+| MERN Stack Developer (IBM) | Full-stack web architecture, React, Node.js, Express, MongoDB REST APIs | [Mern_Stack-IBM](https://github.com/Mr-Anonymous-Guy/Mern_Stack-IBM) |
+| Data Structures & Algorithms (GeeksforGeeks) | Core algorithmic problem solving, trees, graphs, dynamic programming | [DSA-GFG](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
+| Cloud & Backend Engineering | Microservices, database optimization, cloud deployments | [Cloud-Track](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
+| AI & Machine Learning Foundations | Data science pipelines, neural networks, predictive models | [AI-Foundations](https://github.com/Mr-Anonymous-Guy/08_Certification_Programs) |
 
 ---
 
-## 09. ArogyaAI
+## 09–12. Standalone & Specialty Projects
 
 <p align="center">
-  <strong>Predictive Health Intelligence • Machine Learning • Wearable Integration • Clinical RAG</strong>
+  <strong>ArogyaAI • Nexterm • Repo Clone System • Simple Weather</strong>
 </p>
 
 <p align="center">
-  A predictive health intelligence platform that ingests continuous patient data from wearables, parses medical reports with AI, and delivers ML-powered predictive health insights.
+  Standalone specialty projects spanning predictive health intelligence, developer CLI tooling, repository management, and modern weather applications.
 </p>
 
 ### Projects
@@ -234,60 +228,25 @@
 | Project | Description | Repo |
 | :--- | :--- | :--- |
 | ArogyaAI | Predictive Health Intelligence Platform — React 19, FastAPI, Celery, TimescaleDB, Qdrant | [arogyaai](https://github.com/Mr-Anonymous-Guy/arogyaai) |
-
----
-
-## 10. Nexterm
-
-<p align="center">
-  <strong>Local Developer Operating System • CLI Shell • Pre-Push Guardian • Automation</strong>
-</p>
-
-<p align="center">
-  A local developer operating system CLI shell to index and address software projects by name, automate environment stacks, and defend Git repositories.
-</p>
-
-### Projects
-
-| Project | Description | Repo |
-| :--- | :--- | :--- |
 | Nexterm | DeveloperOS CLI terminal line control, scan/find/start workspaces, pre-push hook guardian | [Nexterm](https://github.com/Mr-Anonymous-Guy/Nexterm) |
-
----
-
-## 11. Repo_Clone_System
-
-<p align="center">
-  <strong>Repository Management • CLI Command Palette • Multi-Profile Workspace Memory</strong>
-</p>
-
-<p align="center">
-  An open-source Python CLI application designed to clone GitHub repositories while maintaining workspace aliases, switches, sync directories, and backup history.
-</p>
-
-### Projects
-
-| Project | Description | Repo |
-| :--- | :--- | :--- |
 | Repo_Clone_System | Shell-first Git-style hybrid CLI with Command Palette, location doctor, and sync features | [Repo_Clone_System](https://github.com/Mr-Anonymous-Guy/Repo_Cone_System) |
+| Simple Weather | Responsive PWA weather application with geolocation geocoding and shimmer skeleton | [Wether](https://github.com/Mr-Anonymous-Guy/Wether) |
 
 ---
 
-## 12. Simple Weather
+## 📌 Recently Added Projects
 
-<p align="center">
-  <strong>TanStack Start • Server-Side Rendering • Geolocation API • Condition-Reactive Gradients</strong>
-</p>
+Repositories that were automatically detected on GitHub but not yet categorised above.
 
-<p align="center">
-  A modern weather application built with TanStack Start, TanStack Router/Query, and React that displays real-time weather information via Open-Meteo.
-</p>
-
-### Projects
-
+<!-- START_NEW_PROJECTS -->
 | Project | Description | Repo |
 | :--- | :--- | :--- |
-| Simple Weather | Responsive PWA weather application with geolocation geocoding and shimmer skeleton | [Wether](https://github.com/Mr-Anonymous-Guy/Wether) |
+| ai-assistant-platform | No description provided | [ai-assistant-platform](https://github.com/Mr-Anonymous-Guy/ai-assistant-platform) |
+| Calculator-Web- | No description provided | [Calculator-Web-](https://github.com/Mr-Anonymous-Guy/Calculator-Web-) |
+| Course_Projects | No description provided | [Course_Projects](https://github.com/Mr-Anonymous-Guy/Course_Projects) |
+| LeetCode_Problems | The Repo for all the leetcode problems sloved in the site | [LeetCode_Problems](https://github.com/Mr-Anonymous-Guy/LeetCode_Problems) |
+| nudot-clone-site | Created with Blink | [nudot-clone-site](https://github.com/Mr-Anonymous-Guy/nudot-clone-site) |
+<!-- END_NEW_PROJECTS -->
 
 ---
 

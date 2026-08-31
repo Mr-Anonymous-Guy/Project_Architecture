@@ -1,0 +1,72 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Portfolio Auto-Sync Workflow
+# ─────────────────────────────────────────────────────────────────────────────
+# Triggers:
+#   1. Scheduled cron  — runs every day at midnight UTC (catches any missed updates)
+#   2. Manual dispatch — click "Run workflow" in GitHub Actions tab
+#   3. Repository dispatch — instant webhook trigger on repo create/delete/edit
+#
+# Security:
+#   - Uses GITHUB_TOKEN (auto-injected by Actions) — scoped ONLY to this repo
+#   - Minimal permissions: read repos + write this repo's contents
+#   - No external dependencies, no npm install needed
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Auto-Sync Portfolio README
+
+on:
+  # Way 1: Daily schedule at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Way 2: Manual trigger from Actions tab
+  workflow_dispatch:
+
+  # Way 3: External webhook trigger
+  repository_dispatch:
+    types: [portfolio-sync]
+
+# Restrict token permissions to the bare minimum
+permissions:
+  contents: write
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # ── Step 1: Checkout this repository ──
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Step 2: Setup Node.js (v20 LTS — includes native fetch) ──
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # ── Step 3: Run the sync script ──
+      - name: Run Portfolio Sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node sync.js
+
+      # ── Step 4: Check for changes and commit ──
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Check if README.md was actually changed
+          if git diff --quiet README.md; then
+            echo "✔ No changes detected — README is already up to date."
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "docs: auto-update portfolio index [skip ci]"
+          git push origin main
+          echo "✔ Changes committed and pushed successfully."

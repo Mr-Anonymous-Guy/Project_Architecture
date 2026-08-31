@@ -1,0 +1,14 @@
+{
+  "name": "project-architecture-sync",
+  "version": "1.0.0",
+  "description": "Auto-sync portfolio README with GitHub public repositories",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "sync": "node sync.js",
+    "sync:dry": "node sync.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
