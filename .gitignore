@@ -28,3 +28,6 @@ node_modules/
 dist/
 build/
 .cache/
+
+# Design docs kept locally only
+automated_sync_design.md
