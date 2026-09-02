@@ -15,9 +15,9 @@
 name: Auto-Sync Portfolio README
 
 on:
-  # Way 1: Daily schedule at midnight UTC
+  # Way 1: Daily schedule at 12:00 AM IST / Midnight India (18:30 UTC)
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 18 * * *'
 
   # Way 2: Manual trigger from Actions tab
   workflow_dispatch:
