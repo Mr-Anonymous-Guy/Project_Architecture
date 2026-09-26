@@ -241,7 +241,11 @@ Repositories that were automatically detected on GitHub but not yet categorised 
 <!-- START_NEW_PROJECTS -->
 | Project | Description | Repo |
 | :--- | :--- | :--- |
-| *No new repositories detected* | — | — |
+| ai-assistant-platform | No description provided | [ai-assistant-platform](https://github.com/Mr-Anonymous-Guy/ai-assistant-platform) |
+| Calculator-Web- | No description provided | [Calculator-Web-](https://github.com/Mr-Anonymous-Guy/Calculator-Web-) |
+| Course_Projects | No description provided | [Course_Projects](https://github.com/Mr-Anonymous-Guy/Course_Projects) |
+| LeetCode_Problems | The Repo for all the leetcode problems sloved in the site | [LeetCode_Problems](https://github.com/Mr-Anonymous-Guy/LeetCode_Problems) |
+| nudot-clone-site | Created with Blink | [nudot-clone-site](https://github.com/Mr-Anonymous-Guy/nudot-clone-site) |
 <!-- END_NEW_PROJECTS -->
 
 ---
